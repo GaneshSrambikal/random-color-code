@@ -34,6 +34,9 @@
   bottom: 0;
   right: 0;
 }
+@media screen and (max-width: 468px){
+  
+}
 #developer-info a img{
   width: 100px;
   height: 100px;
