@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import './App.css'
-import { RandomColors } from 'random-color-type-generator'
+import { RandomColors } from 'random-color-code-generator'
 
 function App() {
   const [currentColor, setCurrentColor] = useState('#242424')

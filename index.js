@@ -1,5 +1,5 @@
 // from node samples
-const { RandomColors } = require('random-color-type-generator');
+const { RandomColors } = require('random-color-code-generator');
 const rcg = new RandomColors();
 
 console.log('RGB', rcg.getRandomRGBColor());
