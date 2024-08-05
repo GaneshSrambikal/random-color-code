@@ -1,0 +1,19 @@
+{
+  "name": "test_randomcolors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "colors",
+    "random",
+    "generator"
+  ],
+  "author": "Ganesh Srambikal",
+  "license": "ISC",
+  "description": "Generate random color type",
+  "dependencies": {
+    "random-color-type-generator": "^1.1.5"
+  }
+}
