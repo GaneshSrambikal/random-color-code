@@ -17,6 +17,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.container{
+  position: relative;
+}
 .card{
   display: flex;
   justify-content: center;
@@ -26,7 +29,15 @@
 .card button {
   margin-left: 1rem;
 }
-
+#developer-info{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#developer-info a img{
+  width: 100px;
+  height: 100px;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

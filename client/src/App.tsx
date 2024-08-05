@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='container'>
       <div>
         <h2>{currentColor}</h2>
       </div>
@@ -49,7 +49,8 @@ function App() {
       <p className="read-the-docs">
         Click on the buttons above to Generator Random Color
       </p>
-    </>
+      
+    </div>
   )
 }
 
