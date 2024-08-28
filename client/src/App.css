@@ -52,7 +52,7 @@ code{
 }
 @media screen and (max-width: 468px){
   code{
-    font-size: 1rem;
+    font-size: .9rem;
   }
   #developer-info{
     top: 0;
