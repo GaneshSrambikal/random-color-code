@@ -37,11 +37,11 @@
   right: 1rem;
   
 }
-#npm-info{
-  position: absolute;
-  bottom: 0;
-  right: 0;
+#developer-info a img{
+  width: 80px;
+  height: 80px;
 }
+
 code{
   font-size: 1.3rem;
   background-color: rgb(240, 240, 240);
@@ -54,20 +54,17 @@ code{
   code{
     font-size: 1rem;
   }
-}
-#developer-info a img{
-  width: 80px;
-  height: 80px;
-}
+  #developer-info{
+    top: 0;
+    flex-direction: column;
+  }
+  #developer-info a img{
+    width: 50px;
+    height: 50px;
+  }
+  }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 
 
