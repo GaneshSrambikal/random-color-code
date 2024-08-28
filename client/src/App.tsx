@@ -49,6 +49,7 @@ function App() {
       <p className="read-the-docs">
         Click on the buttons above to Generator Random Color
       </p>
+      <code>npm i random-color-code-generator</code>
       
     </div>
   )
